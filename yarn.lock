@@ -5937,10 +5937,12 @@ pascalcase@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
 
-passport-saml@^0.33.0:
-  version "0.33.0"
-  resolved "https://registry.yarnpkg.com/passport-saml/-/passport-saml-0.33.0.tgz#51b99f19dced56d246ee4e2887e32f06321fbecf"
+passport-saml@^0.35.0:
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/passport-saml/-/passport-saml-0.35.0.tgz#06a4952bde9e003923e80efa5c6faffcf7d4f7e0"
+  integrity sha512-WvLhFeMhAy9GaJvuORR2M6NiW0L9KxSlQRbiTajHBJRMziJ/Yg7uZosrwpoDwhztYaB8PpG0tCuMRG43WWYoCQ==
   dependencies:
+    debug "^3.1.0"
     passport-strategy "*"
     q "^1.5.0"
     xml-crypto "^0.10.1"
